@@ -83,6 +83,7 @@ GEM
       railties (>= 3.1.0)
       turbolinks
     json (1.8.6)
+    jwt (1.5.6)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
     mail (2.6.4)
@@ -178,6 +179,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks
+  jwt
   mysql2 (~> 0.3.18)
   rails (= 4.2.3)
   sass-rails (~> 5.0)

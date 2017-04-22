@@ -56,4 +56,7 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # For authentication in API
+  post 'auth' => 'auth#authenticate_user'
 end

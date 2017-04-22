@@ -28,6 +28,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # use devise
 gem 'devise'
+# USER JWT
+gem 'jwt'
 # user bootstrap
 gem 'bootstrap-sass'
 # User Delayed JOb
