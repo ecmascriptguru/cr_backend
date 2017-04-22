@@ -1,4 +1,4 @@
-class ApiBaseControllerController < ActionController::Base
+class ApiBaseController < ActionController::Base
     attr_reader :current_user
 
     protected

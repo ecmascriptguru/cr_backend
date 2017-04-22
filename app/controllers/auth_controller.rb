@@ -1,4 +1,4 @@
-class AuthControllerController < ApiBaseController
+class AuthController < ApiBaseController
     def authenticate_user
         user = User.find_for_database_authentication(email: params[:email])
         if user.valid_password?(params[:password])

@@ -59,4 +59,12 @@ Rails.application.routes.draw do
 
   # For authentication in API
   post 'auth' => 'auth#authenticate_user'
+
+  scope '/api' do
+    scope '/v1' do
+      scope '/items' do
+        get '/' => 'api/v1/items#index'
+      end
+    end
+  end
 end
