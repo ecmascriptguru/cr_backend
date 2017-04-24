@@ -35,6 +35,9 @@ gem 'bootstrap-sass'
 # User Delayed JOb
 gem 'delayed_job_active_record'
 
+# use activeadmin
+gem 'activeadmin', github: 'activeadmin'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -56,5 +59,6 @@ group :development, :test do
 
   # User rspec
   gem 'rspec-rails', '~> 3.5'
+  gem 'capybara'
 end
 
